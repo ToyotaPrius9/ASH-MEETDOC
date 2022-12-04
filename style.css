@@ -1,0 +1,109 @@
+*{
+    text-decoration: none;
+    background-color: #CCF2F0;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #5A6978;
+    
+
+
+}
+
+
+.heading a{
+    font-family: 'Lato', sans-serif;
+    color: #5A6978;
+    font-size: 54px;
+    margin: auto;
+    display: flex;
+    margin-top: 2%;
+    width: 35%;
+    text-align: center;
+    
+}
+
+img {
+    width: 366px;
+    height: 366px;
+    margin: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: auto;
+    align-self: center; 
+    
+  }
+
+
+.Username a{
+    color: #47525E;
+    font-size: 28px;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: 42%;
+    margin-top: 3.2%;
+    width: 25%;
+    
+}
+
+
+.box1{
+
+    position:absolute;
+    left: 43%;
+    top: 71%;
+    width:18%;
+    height:5%;
+    border:1px 
+    solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    border-radius: 40;
+    
+      
+}
+
+.Password a{
+    color: #47525E;
+    font-size: 28px;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: 42%;
+    margin-top: 2.7%;
+    width: 25%;
+     
+}
+
+.box2{
+    position:absolute;
+    left: 43%;
+    top: 81%;
+    width:18%;
+    height:5%;
+    border:1px 
+    solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    border-radius: 40;
+}
+
+.Google a{
+    color: #0C6D9F;
+    font-size: 26px;
+    position: absolute;
+    top: 92%;
+    left: 40%;
+    
+    
+
+}
+
+.Google a:hover{
+    text-decoration: underline;
+}
