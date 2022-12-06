@@ -1,0 +1,117 @@
+*{
+    text-decoration: none;
+    background-color: #CCF2F0;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #5A6978;
+
+
+
+}
+
+
+.heading a{
+    font-family: 'Lato', sans-serif;
+    color: #5A6978;
+    font-size: 54px;
+    margin: auto;
+    display: flex;
+    margin-top: 2%;
+    width: 35%;
+    text-align: center;
+
+}
+.forms{
+  width: 300px;
+  height: 300px;
+  radius: 50%;
+  align-self: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+img {
+    width: 366px;
+    height: 366px;
+    margin: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: auto;
+    align-self: center;
+
+  }
+  * {box-sizing: border-box}
+
+  .container {
+    padding: 16px;
+
+  }
+  .CC{
+    align-items: center;
+    color: #0ebebb;
+    margin-left: 85px;
+    margin-right: 110px;
+  }
+
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+
+  }
+
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .form{
+    width: 50px;
+    height: 40px;
+
+    align-items: center;
+  }
+
+
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+
+  .registerbtn {
+    background-color: #1ccdc7;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .registerbtn:hover {
+    opacity:1;
+  }
+
+
+  a {
+    color: #CFFDE1;
+  }
+
+  
+  .signin {
+    background-color: #009EFF;
+    text-align: center;
+  }
