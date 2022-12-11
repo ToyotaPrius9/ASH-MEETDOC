@@ -18,12 +18,17 @@ body {
 .heading a{
     font-family: 'Lato', sans-serif;
     color: #5A6978;
-    font-size: 54px;
+    font-size: 200%;
     margin: auto;
     display: flex;
-    margin-top: 2%;
-    width: 35%;
+    margin-top: 20px;
+    
     text-align: center;
+    
+    justify-content:center;
+    align-items: center;
+    
+    
 
 }
 .forms{
@@ -34,18 +39,24 @@ body {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
 
 }
 img {
-    width: 366px;
-    height: 366px;
+    width: 300px;
     margin: auto;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    height: 300px;
     margin-top: 20px;
-    width: auto;
+    
     align-self: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
 
   }
   * {box-sizing: border-box}
