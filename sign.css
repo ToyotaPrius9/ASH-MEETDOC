@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+
+}
+
+.form {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    width: 400px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(61, 226, 255, 0.603);
+
+}
+
+
+
+
+.form .login-form .doct {
+    /*color: #7DCE13;*/
+    font-size: 90px;
+    margin-bottom: 29px;
+
+}
+
+.form .signup-form .doct {
+    /*color: #7DCE13;*/
+    font-size: 90px;
+    margin-bottom: 29px;
+
+}
+
+/* disappearance of signup*/
+.form .signup-form {
+    display: none;
+
+}
+
+.form .user-input {
+    width: 320px;
+    height: 55px;
+    margin-bottom: 30px;
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 23px;
+}
+.form .sign-in {
+    margin-bottom: 50px;
+
+}
+
+.form .sign-in input {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    
+}
+
+/* pushing the the 'forgot password to the right'*/
+.form .sign-in a {
+    color: #293462;
+    font-size: 14px;
+    font-style: italic;
+    
+
+}
+
+/* Login button */
+.form .btn {
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 55px;
+    background: #2ede33;
+    color: #1F4690;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-bottom: 25px;
+}
+
+.form .btn:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form .sign-up {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.form .sign-up a {
+    color: #135b78;
+    text-decoration: underline;
+
+}
+
+/*Responsive*/
+@media screen and (max-width:500px) {
+    .form {
+        width: 95%;
+
+    }
+
+    .form .user-input {
+        width: 80%;
+    }
+
+    .form .btn {
+        width: 80%;
+    }
+}

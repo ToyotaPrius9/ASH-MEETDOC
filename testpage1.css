@@ -1,0 +1,272 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+    
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #5A6978;
+    background-color: #CCF2F0;
+    text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+.backlogo{
+    float: left;
+    display: flex;
+    
+    
+    
+    
+}
+
+.backlogo img{
+    max-width: 45px;
+    max-height: 55px;
+    
+    
+
+}
+
+
+
+
+
+.halalimage img{
+    
+    
+    float:right;
+    max-height: 70px;
+    
+    
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.cat h1{
+    
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    margin-left: -14px;
+    margin-top: 60px;
+    font-size: 250%;
+    text-decoration: none;
+    
+
+}
+
+
+
+.content{
+    
+    display: flex;
+    
+    justify-content: center;
+    gap: 80px;
+    flex-flow:wrap;
+     
+}
+
+.content img{
+    max-height: 400px;
+    max-width: 100px;
+    border: 4px solid;
+    border-color: rgb(55, 116, 118);
+    border-radius: 10px;
+    
+
+}
+
+.content h2{
+    text-align: center;
+    font-size: auto;
+    max-width: 200px;
+    
+    
+}
+
+
+
+.nav{
+    display: flex;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    justify-content: center;
+    gap: 45px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+    
+    
+    
+    
+}
+
+.home img{
+    max-width: 35px;
+    max-height:32px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -6.6px;
+    margin-left: 8px;
+    margin-top: 4.8px;
+    margin-bottom: -5px;
+}
+
+.home p1{
+    margin-left: 6px;
+   
+}
+
+.profile img{
+    max-width: 40px;
+    max-height:36px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -6.4px;
+    margin-left:8px;
+    margin-top: 2px;
+    
+}
+
+.profile p1{
+    text-decoration: underline;
+    color: lime;
+}
+
+
+
+
+
+
+.navlink p1{
+    color:rgb(19, 85, 90);
+    text-align: center;
+    font-size: 14px;
+    
+
+}
+
+nav a{
+    justify-content: center;
+    display: flex;
+}
+
+
+.doctors img{
+    max-width: 30px;
+    max-height:33px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+.doctors p1{
+    text-align: center;
+    margin-left: -8px;
+    margin-top: -1px;
+    
+}
+
+.appointments img{
+    max-width: 30px;
+    max-height:33px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    margin-left: 14px;
+    
+}
+
+.appointments p1{
+    text-align: center;
+    margin-left: -8px;
+    font-size: 13.3px;
+    
+    
+    
+}
+
+
+.catbg{
+    background-color:rgba(167, 166, 227, 0.351);
+    border-radius: 8px;
+    margin-left: 4.8%;
+    
+    padding-top:30px;
+    padding-bottom:30px;
+    max-width: 90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 750px){
+
+
+    .content{
+        max-width: 59%;
+        padding-top: 20px;
+        padding-bottom: 20px;;
+        
+        gap: 125px;
+    }
+
+
+    .catbg {
+        max-width: 70%; 
+        margin: 0 auto;
+    }
+
+    .nav{
+        gap:80px;
+    }
+    
+
+
+
+    
+
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: rgb(135, 135, 135); 
+  }
+
+::-webkit-scrollbar-thumb {
+    background: rgb(108, 106, 106);
+  }

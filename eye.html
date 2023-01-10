@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eye.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <!--Start Of Doctors-->
+    <title>Doctors</title>
+    
+</head>
+<body>
+    <nav>
+        <div class = "backlogo"><a href = "testpage1.html"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1060200604435230830/back-removebg-preview.png"alt = ""></a></div>
+        
+        <div class="halalimage"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1051669726075572295/mdlogo__1_-removebg-preview.png" alt=""></div>
+    </nav>
+    <br>
+    <div class = "doctorbg">
+        <div class = "title"><h1 id = "headingcat">Ophthalmologists</h1></div>
+        
+        
+
+        <!----De Bottom Nav--------------------------------------------------------------------------->
+        <nav class ="nav">
+        
+            <a href="#" class = "navlink">
+                <div class = "home"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1049639262708039740/Home.png"><p1>Home</p1></div>
+            </a>
+    
+            <a href="#" class = "navlink">
+                <div class = "profile"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1061663410544185444/category-black-filled-icon-style-free-vector-removebg-preview.png"><p1>Category</p1></div>
+            </a>
+    
+            <a href="page2.html" class = "navlink">
+                <div class = "doctors"><img src="https://marvel-live.freetls.fastly.net/canvas/2022/10/c1b8a34c0ee94b06a1dfee36ceb9e9a5?quality=95&fake=.png&width=67.5"><p1>Doctors</p1></div>
+            </a>
+    
+            <a href="#" class = "navlink">
+                <div class = "appointments"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1049639155518419026/Appointment.png"><p1>Appointment</p1></div>
+            </a>
+        </nav>
+        <!--End Of De Bottom Nav-------------------------------------->
+
+
+        
+        <div class="container">
+            <form action='' class = 'searchbar'>
+                <input type="text" placeholder="Search Doctors", name="q">
+                
+            </form>
+            
+
+        </div> 
+        <!--End Of SearchBar---------------------------------------------->
+
+        
+        
+        <!--Start Of FilterBox, When i put da js on external file it would'nt work.. so i kept the js for this form at the bottom, mb :(    )-->
+        <p1 id = "sorttext">Showing:</p1><select name='list' class="filter" id='list' onchange=addLink()>
+            <option value="option0">Ophthalmologists (All)</option>
+            <option value="option1">Ophthalmologists (Near Me)</option>
+            
+            
+        </select>
+        <div id = "test"><img src = "https://cdn.discordapp.com/attachments/1049638989704990811/1059623028264284180/arrow-drop-down-circle-1782298-1514148.png"></div>
+        <br>
+        <br>
+        <!--End of FilterBox---------------------------------------------->
+
+        <!--De Doctors-->
+        <div class = "content">
+
+           
+
+            <div id = "ophthalmologist" data-specialty="Ophthalmologist">
+                <div class = "doctor"><a href = "jeong.html"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1061685466547621958/image.png"></a><h2>Dr. Jeong</h2></div>
+                
+            </div>
+
+            <div id = "ophthalmologist" data-specialty="Ophthalmologist">
+                
+                <div class = "doctor"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1054067411978043392/imageedit_16_9000389440-removebg-preview_1.jpg"><h2>Dr. Tri</h2></div>
+            </div>
+
+            <div id = "ophthalmologist" data-specialty="Ophthalmologist">
+                <div class = "doctor"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1054067411978043392/imageedit_16_9000389440-removebg-preview_1.jpg"><h2>Dr. Phor</h2></div>
+                
+            </div>
+
+            
+        </div>
+    </div>
+    <!--End of De Doctors--------------------------------------------->
+    <!--End of Doctors----------------------------------------------->
+    <br>
+    <br>
+    <br>
+    
+   
+    
+        <!--Start Of My Doctors-->
+        <div class = "title2"><h1>My Doctors</h1></div>
+        <br>
+        <br>
+        <br>
+    <div class = "mydoctor">
+        <br>
+        <div class="container2">
+            <form action='' class = 'searchbar'>
+                <input type="text" placeholder="Search My Doctors", name="q">
+                
+            </form>
+        </div>
+        <select name='list' class="filter" id='list' onchange=addLink()>
+            <option value="#">Brain</option>
+            <option value="#">Body Pain</option>
+            <option value="https://www.youtube.com/watch?v=QhLnKd-6CS8&ab_channel=Greekoid">Kratos Car</option>
+            <option value="https://youtu.be/tyKeZxbgwPg">Break-Dancing Cat</option>
+            <option value="https://www.youtube.com/shorts/TSQ3qJyWP_4">Fever</option>
+        </select>
+        <br>
+        
+
+
+        <div class = "content2">
+            <div class = "doctor"><img src="https://media.tenor.com/vJqk_DRsOasAAAAS/mr-bean-thumbs-up.gif"><h2>Dr. Bean</h2></div> 
+            <div class = "doctor"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1054150576734224384/latest.png"><h2>Dr. Frankenstien</h2></div>
+            <div class = "doctor"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1054067411978043392/imageedit_16_9000389440-removebg-preview_1.jpg"><h2>Dr. Ziwo</h2></div>
+            <div class = "doctor"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1054067411978043392/imageedit_16_9000389440-removebg-preview_1.jpg"><h2>Dr. Wan</h2></div>
+            <div class = "doctor"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1054067411978043392/imageedit_16_9000389440-removebg-preview_1.jpg"><h2>Dr. Tu</h2></div>
+            <div class = "doctor"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1054067411978043392/imageedit_16_9000389440-removebg-preview_1.jpg"><h2>Dr. Tri</h2></div>
+            <div class = "doctor"><img src="https://cdn.discordapp.com/attachments/1049638989704990811/1054067411978043392/imageedit_16_9000389440-removebg-preview_1.jpg"><h2>Dr. Phor</h2></div>
+        </div>
+    
+    
+
+    </div>
+    <br>
+    <br>
+    
+
+    
+
+    <script>
+            let option = document.getElementById("list");
+            console.log(option);
+            option.onchange = function() {
+                let currentOption = this.options[this.selectedIndex];
+                if(currentOption.value !== '#') {
+                    window.open(currentOption.value, "_self");
+                }
+            }
+        
+    </script>
+    <script src="page2.js"></script>
+
+    <br>
+    <br>
+</body>
