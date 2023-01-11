@@ -16,7 +16,7 @@ body {
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://github.com/Cabbasullah/mileston/blob/main/bg.jpeg?raw=true);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://img.freepik.com/free-vector/health-care-science-medical-dna-background-banner_1017-20043.jpg?w=2000);
   background-position: center;
   background-size: cover;
 }
@@ -302,4 +302,15 @@ h3 {
   left: 0;
   transition: 0.1s;
 
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgb(135, 135, 135); 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(108, 106, 106);
 }
