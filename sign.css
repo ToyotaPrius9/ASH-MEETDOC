@@ -13,9 +13,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(47, 155, 198, 0.5);
     
 
+}
+
+
+
+
+.welcome{
+    height: 6vh;
+    width: 22%;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    background-color: #dbe4e5;
+    box-sizing: border-box;
+    margin-bottom: 600px;
+    border-radius: 15px;
+}
+.welcome h3{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
 }
 
 .form {
@@ -26,7 +45,9 @@ body {
     text-align: center;
     border-radius: 15px;
     background-color: rgba(61, 226, 255, 0.603);
-
+    padding-bottom: -30px;
+    margin-top: 80px;
+    
 }
 
 
@@ -94,7 +115,7 @@ body {
     color: #1F4690;
     font-size: 18px;
     letter-spacing: 1px;
-    border-radius: 8px;
+    border-radius: 12px;
     cursor: pointer;
     transition: 0.6s;
     margin-bottom: 25px;
@@ -107,7 +128,7 @@ body {
 .form .sign-up {
     color: #ffffff;
     font-size: 14px;
-    margin-top: 30px;
+    padding: -250px;
 }
 
 .form .sign-up a {
@@ -120,6 +141,7 @@ body {
 @media screen and (max-width:500px) {
     .form {
         width: 95%;
+        background-color: #80cbda;
 
     }
 
@@ -130,4 +152,20 @@ body {
     .form .btn {
         width: 80%;
     }
+    .welcome {
+    height: 4vh;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    background-color: #dbe4e5;
+    box-sizing: border-box;
+    margin-bottom: 600px;
+    border-radius: 15px;
+    }
+    .welcome h3 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+                    
+        }
 }

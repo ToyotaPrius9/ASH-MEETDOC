@@ -188,8 +188,8 @@ nav a{
 
 
 .profilepic img{
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 80px;
+    max-width: 80px;
     margin-left: 20%;
     margin-top: 20%;
     border-radius: 4px;
@@ -241,6 +241,7 @@ nav a{
    padding-top: 10px;
    flex-flow: column;
    gap: 20px;
+   text-align: center;
    
    
 

@@ -280,15 +280,29 @@ nav a{
 
 .content2{
     
+    
+    
     display: flex;
     margin-top: 40px;
     justify-content: start;
     gap: 40px;
-    height:200px;
+    max-height:600px;
     margin-left: 20px;
     overflow-x: auto;
-    flex-flow: wrap;
-    padding-bottom: 0px;
+    max-width: 100%;
+    flex-flow: row;
+    height: auto;
+    padding-bottom: 20px;
+    
+    
+    
+        
+        
+        
+        
+        
+        
+    
     
 }
 
