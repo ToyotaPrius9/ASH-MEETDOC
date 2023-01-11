@@ -12,26 +12,55 @@
     width: 100%;
     height: 100%;
     background-color: #83c0bc;
-    margin-bottom: 1240px;
+    margin-bottom: 1380px;
 }
+
+
+
+
+
+.title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 120px;
+   
+}
+
+.title h1{
+    
+    margin-top: -70px;
+    font-size: 300%;
+    margin-left: -16px;
+    
+    
+}
+
+
+
+
+
+
 
 .top {
     margin-bottom: 500px;
     color: rgb(8, 9, 9);
-    align-items: center;
-    justify-content: center;
+    margin-top: -190px;
     position: absolute;
+    margin-right: 17px;
   
 
 }
 
 
 .top h3{
-    margin-top: -85px;
+    
     font-size: 150%;
     background-color: lightgray;
     padding: 10px;
     border-radius: 6px;
+
 }
 
 
@@ -49,11 +78,11 @@ body {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     position: absolute;
-    height: 520px;
+    height: 580px;
     width: 85vw;
     text-align: center;
     border-radius: 15px;
-    background-color: #93c4c2;
+    background-color: #b8b8b8;
     margin-top: 70px;
     padding-top: 13px;
 
@@ -115,6 +144,101 @@ body {
 
 }
 
+
+.nav{
+    display: flex;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    justify-content: center;
+    gap: 80px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+    
+    
+    
+    
+}
+
+.home img{
+    max-width: 35px;
+    max-height:32px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -6.6px;
+    margin-left: 8px;
+    margin-top: 4.8px;
+    margin-bottom: -5px;
+}
+
+.home p1{
+    margin-left: 6px;
+   
+}
+
+.profile img{
+    max-width: 40px;
+    max-height:36px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -6.4px;
+    margin-left:8px;
+    margin-top: 2px;
+    
+}
+
+.navlink p1{
+    color:rgb(19, 85, 90);
+    text-align: center;
+    font-size: 14px;
+
+}
+
+nav a{
+    justify-content: center;
+    display: flex;
+}
+
+
+.doctors img{
+    max-width: 30px;
+    max-height:33px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+.doctors p1{
+    text-align: center;
+    margin-left: -8px;
+    margin-top: -1px;
+    text-decoration: underline;
+    color: green;
+}
+
+.appointments img{
+    max-width: 30px;
+    max-height:33px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    margin-left: 14px;
+    
+    
+}
+
+.appointments p1{
+    text-align: center;
+    margin-left: -8px;
+    font-size: 13.3px;
+    
+}
+
+
 .ibd input {
     width: 40vw;
     height: 10vh;
@@ -164,11 +288,12 @@ body {
 .top-container .doct img {
     margin-bottom: 600px;
     position: absolute;
-    top: 13px;
+    top: 26px;
     left: 5px;
     width: 60px;
     border-radius: 10px;
     display: flex;
+    max-width: 40px;
 
 
 
@@ -177,7 +302,7 @@ body {
 
 .do {
     margin-bottom: 600px;
-    top: 3px;
+    top: 13px;
     right: 1px;
     display: flex;
     position: absolute;
@@ -189,36 +314,48 @@ body {
 
 }
 
-.do h3 {
-    color: crimson;
-    display: flex;
+.do img {
+    width: 60px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width:500px) {
 
 
     .top-container{
-        display: none;
-        
+    
+        margin-bottom: 0px;
+
+
     }
 
+    
+    .top-container .doct img {
+        
+        position: absolute;
+        top: 26px;
+        left: 5px;
+        width: 60px;
+        border-radius: 10px;
+        display: flex;
+        max-width: 30px;
+    
+    
+    
+    
+    }
 
     .do {
         margin-bottom: 500px;
         top: 3px;
         right: 1px;
-        display: flex;
+        display: none;
         position: absolute;
         color: rgb(0, 0, 0);
 
     }
 
-    .do h3 {
-        color: crimson;
-        display: flex;
-
-
-    }
+   
 
     .iname input {
         width: 43.4vw;
@@ -301,11 +438,11 @@ body {
 
     .top {
         
-        margin-bottom: 540px;
+        margin-bottom: 364px;
         color: rgb(157, 7, 7);
-        align-items: center;
-        justify-content: center;
+        
         position: absolute;
+        margin-left: 30px;
         
 
     }
@@ -322,7 +459,10 @@ body {
         
     }
 
-    
+    .nav{
+        
+        gap: 45px;
+    }
 
     
 }
