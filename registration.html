@@ -46,7 +46,7 @@
             </div>
         </form>
         <!-- Sign-up form  --->
-        <form class="signup-form" action="" method="post">
+        <form class="signup-form"  method="post">
             <div class="doct"><img src="https://cdn.discordapp.com/attachments/1003843960566992968/1048548375290720256/mdlogo.png"
                     alt=""></div>
             <input class=" user-input" type="text" name="" placeholder="Username" required>
@@ -60,16 +60,17 @@
         </form>
 
     </div>
-    <script src="script.js"></script>
-    <script type="text/javascript">
-        $('.sign-up a').click(function () {
-                $('form').animate({
-                    height: "toggle",
-                }, "slow");
-            });
+    <form class="login-form" method="post" id="myform">
+   
+   <input class="btn" type="submit" name="" value="LOGIN">
+</form>
 
-
-    </script>
+<script>
+document.getElementById("myform").addEventListener("submit", function(e){
+    e.preventDefault();
+    window.location.href = 'testpage1.html';
+});
+</script>
 
 
 </body>
