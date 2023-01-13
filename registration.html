@@ -64,12 +64,16 @@
    
   
 
-<script>
-document.getElementById("myform").addEventListener("submit", function(e){
-    e.preventDefault();
-    window.location.href = 'testpage1.html';
-});
-</script>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+         $('.sign-up a').click(function () {
+            $('form').animate({
+                height: "toggle",
+             }, "slow");
+                });
+    
+    
+    </script> 
 
 
 </body>
