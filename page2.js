@@ -1,3 +1,4 @@
+// Made By Harman //
 const image = document.getElementById('test');
 
 image.addEventListener('click', function() {
